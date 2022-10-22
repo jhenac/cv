@@ -63,19 +63,30 @@ text-align: center;
 font-family: 'Helvetica Neue', sans-serif;
 }
 
+#about-page h1 {
+color: #647E68;
+}
+
+#about-page h4 {
+font-family: 'Arial ', sans-serif;
+font-weight: lighter;
+}
+
 #about-page hr {
 width: 50%;
 }
 
 #about-page h2 {
 margin-top: 50px;
+color: #647E68;
 }
 
 #about-page p {
 margin: 30px 400px 0 150px;
 padding-right: 100px;
 text-align: justify;
-font-weight: lighter;
+font-family: 'Arial', sans-serif;
+font-weight: normal;
 }
 
 #about-page img{
