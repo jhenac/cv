@@ -1,17 +1,80 @@
 body {
-    background-color: #FFF5E4;
-    font-family: cursive;
+    margin: 0;
 }
-hr {
-    width: 10%;
-    border-style: dotted none none;
-    border-width: 5px;
-    border-color: grey;
+
+.menu-container {
+margin: 0 auto 0 auto;
+background-color: #F8C4B4;
+padding: 20px;
+position: fixed;
+width: 100%;
+z-index: 99;
 }
+
+.profile-pic { width: 4%; margin: auto 50px auto auto; float: right;}
+
+.menu-link {
+text-decoration: none;
+line-height: 1em;
+display: inline-block;
+padding: 20px 20px 5px 20px;
+color: #367E18;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-link:hover{color: black;}
+
+.about {
+background-color: #F8C4B4;
+height: 600px;
+padding: 60px 0 10px 0;
+}
+
 h1 {
-    color: #850E35;
+font-family: cursive;
+color: #C84B31;
+text-align: center;
+font-size: 5.5rem;
+padding: 100px auto 0 auto;
+font-weight: normal;
 }
 
 h3 {
-    color: #EE6983;
+color: #DC5F00;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+padding: 0 0 50px 0;
+font-weight: normal;
 }
+
+.flower1 {
+width: 10%;
+position: absolute;
+right: 250px;
+top: 140px;
+}
+.flower2 {
+width: 10%;
+position: absolute;
+left: 250px;
+bottom: 250px;
+}
+.bg{
+width: 100%;
+padding: 20px auto auto auto;
+  }
+
+.middle-container {
+margin: 50px;
+text-align: center;
+}
+
+.profile-pic2 {
+width: 15%;
+}
+
+h2{
+font-family: Arial, sans-serif;
+color: #C84B31;
+}
+
