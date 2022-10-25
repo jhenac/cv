@@ -40,7 +40,7 @@ height: 540px;
 padding-top: 40px;
 text-align: left;
 background-image: url('pexels-cats.jpg');
-background-size: cover;
+background-size: 100% 100%;
 background-attachment: fixed;
 }
 
