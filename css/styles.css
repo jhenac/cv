@@ -39,7 +39,7 @@ width: 100%;
 height: 540px;
 padding-top: 40px;
 text-align: left;
-background-image: url('bg.jpg');
+background-image: url('bg.png');
 background-size:cover;
 background-position:center;
 background-attachment: fixed;
@@ -171,7 +171,7 @@ width: 100%;
 #project-1 {
 float: left;
 width: 38%;
-margin: 20px 10px 30px 80px;
+margin: 20px 10px 30px 50px;
 height: 460px;
 padding: 20px;
 border-style: solid;
@@ -189,7 +189,7 @@ text-align: justify;
 #project-2 {
 float: right;
 width: 38%;
-margin: 20px 70px 30px 10px;
+margin: 20px 50px 30px 10px;
 padding: 20px;
 border-style: solid;
 height: 460px;
@@ -207,7 +207,7 @@ width: 20%;
 #project-3 {
 float: left;
 width: 38%;
-margin: 20px 10px 30px 80px;
+margin: 20px 10px 30px 50px;
 height: 460px;
 padding: 20px;
 border-style: solid;
@@ -225,7 +225,7 @@ text-align: justify;
 #project-4 {
 float: right;
 width: 38%;
-margin: 20px 70px 30px 10px;
+margin: 20px 50px 30px 10px;
 padding: 20px;
 border-style: solid;
 height: 460px;
