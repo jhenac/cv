@@ -39,7 +39,7 @@ width: 100%;
 height: 540px;
 padding-top: 40px;
 text-align: left;
-background-image: url('pexels-cats.jpg');
+background-image: url('bg.jpg');
 background-size:cover;
 background-position:center;
 background-attachment: fixed;
@@ -69,7 +69,7 @@ margin: 10px auto 10px 50px;
 /************Profile Page Styles***********/
 #about-page {
 width: 100%;
-height: 500px;
+height: 600px;
 text-align: center;
 font-family: 'Helvetica Neue', sans-serif;
 margin-top: 50px;
@@ -99,10 +99,13 @@ width: 4%;
 }
 
 .hr-divider {
-width: 50%;
-border-style: solid none none;
-background-color: white;
-margin-top: 50px;
+ overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+    width: 50%;
 }
 
 /*********Skills Styles*******/
@@ -111,7 +114,7 @@ text-align: center;
 font-family: 'Helvetica Neue', sans-serif;
 margin: 50px 0 50px 0;
 width: 100%;
-height: 350px;
+height: 450px;
 }
 
 /*********Header Styles*******/
@@ -151,4 +154,13 @@ td {
     margin: 30px;
     font-family: 'Helvetica Neue', sans-serif;
     color: #1C3879;
+}
+
+/*********Project Page Styles*******/
+#project-page {
+text-align: center;
+font-family: 'Helvetica Neue', sans-serif;
+margin: 50px 0 50px 0;
+width: 100%;
+height: 450px;
 }
