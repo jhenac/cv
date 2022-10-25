@@ -157,6 +157,7 @@ td {
     margin: 30px;
     font-family: 'Helvetica Neue', sans-serif;
     color: #1C3879;
+    font-weight: bold;
 }
 
 /*********Project Page Styles*******/
@@ -169,7 +170,7 @@ width: 100%;
 
 #project-1 {
 float: left;
-width: 35%;
+width: 38%;
 margin: 20px 10px 30px 80px;
 height: 460px;
 padding: 20px;
@@ -187,7 +188,7 @@ text-align: justify;
 
 #project-2 {
 float: right;
-width: 35%;
+width: 38%;
 margin: 20px 70px 30px 10px;
 padding: 20px;
 border-style: solid;
@@ -205,8 +206,12 @@ width: 20%;
 
 #project-3 {
 float: left;
-width: 40%;
-margin: 20px 10px 10px 80px;
+width: 38%;
+margin: 20px 10px 30px 80px;
+height: 460px;
+padding: 20px;
+border-style: solid;
+background-color: #FFFAE7;
 }
 
 #project-3 img {
@@ -215,6 +220,24 @@ width: 20%;
 
 #project-3 p {
 text-align: justify;
+}
+
+#project-4 {
+float: right;
+width: 38%;
+margin: 20px 70px 30px 10px;
+padding: 20px;
+border-style: solid;
+height: 460px;
+background-color: #FFFAE7;
+}
+
+#project-4 p {
+text-align: justify;
+}
+
+#project-4 img {
+width: 15%;
 }
 
 /*********Button Styles*******/
