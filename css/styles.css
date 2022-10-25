@@ -268,3 +268,35 @@ width: 15%;
   background-image: linear-gradient(to bottom, #425F57, #A8E890);
   text-decoration: none;
 }
+
+/*********Contact Page Styles*******/
+#contact-page {
+width: 100%;
+height: 550px;
+background-color: #66BFBF;
+text-align: center;
+}
+
+#contact-page img {
+width: 5%;
+padding:30px 50px 10px 50px;
+}
+
+#contact-page p {
+  font-family: 'Times New Roman', sans-serif;
+  color: white;
+  font-weight: 20px;
+  margin: 100px 0;
+}
+
+#contact-page h1 {
+color: #354259;
+font-family: 'Helvetica Neue', sans-serif;
+padding: 80px 0 0 0;
+margin: 20px;
+}
+
+#contact-page h4 {
+margin: 0 0 50px 0;
+padding: 0;
+}
