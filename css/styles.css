@@ -74,7 +74,7 @@ margin-top: 50px;
 }
 
 #about-page p {
-margin: 30px 400px 0 150px;
+margin: 30px 400px 0 100px;
 padding-right: 100px;
 text-align: justify;
 font-family: 'Arial', sans-serif;
@@ -85,7 +85,7 @@ font-weight: normal;
 float: right;
 width: 20%;
 margin-top: 40px;
-margin-right: 180px;
+margin-right: 100px;
 }
 
 /*********Horizontal Rules Styles*******/
@@ -100,6 +100,7 @@ width: 4%;
 width: 50%;
 border-style: solid none none;
 background-color: white;
+margin-top: 50px;
 }
 
 /*********Skills Styles*******/
