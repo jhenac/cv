@@ -40,8 +40,10 @@ height: 540px;
 padding-top: 40px;
 text-align: left;
 background-image: url('pexels-cats.jpg');
-background-size: 100% 100%;
+background-size:cover;
+background-position:center;
 background-attachment: fixed;
+background-repeat:no-repeat;
 }
 
 #front-page h1 {
