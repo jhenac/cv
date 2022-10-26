@@ -6,8 +6,9 @@ body {
   background-color: grey;
   position: fixed;
   top: 0;
-  width: 90%;
+  width: 95%;
   transition: top 0.3s;
+  z-index: 99;
 }
 
 #navbar a {
@@ -29,13 +30,14 @@ body {
   top: 0;
   position: fixed;
   background-color: grey;
+  height: 50px;
+  z-index: 99;
 }
 
 #nav-pic {
 width: 3%;
 float: right;
 margin: 6px 6px;
-z-index: 99;
 }
 
 
@@ -178,86 +180,33 @@ height: 1350px;
 padding-top: 50px;
 }
 
-#project-1 {
+.project {
 float: left;
 width: 38%;
-margin: 20px 10px 30px 50px;
-height: 500px;
-padding: 20px;
+margin: 20px 5px 30px 40px;
+height: 450px;
+padding: 30px;
 border-style: solid;
 background-color: #FFFAE7;
+position: relative;
 }
 
-#project-1 img {
-width: 10%;
-}
-
-#project-1 p {
-text-align: justify;
-}
-
-#project-2 {
-float: right;
-width: 38%;
-margin: 20px 50px 30px 10px;
-padding: 20px;
-border-style: solid;
-height: 500px;
-background-color: #FFFAE7;
-}
-
-#project-2 p {
-text-align: justify;
-}
-
-#project-2 img {
-width: 20%;
-}
-
-#project-3 {
-float: left;
-width: 38%;
-margin: 20px 10px 30px 50px;
-height: 500px;
-padding: 20px;
-border-style: solid;
-background-color: #FFFAE7;
-}
-
-#project-3 img {
-width: 20%;
-}
-
-#project-3 p {
-text-align: justify;
-}
-
-#project-4 {
-float: right;
-width: 38%;
-margin: 20px 50px 30px 10px;
-padding: 20px;
-border-style: solid;
-height: 500px;
-background-color: #FFFAE7;
-}
-
-#project-4 p {
-text-align: justify;
-}
-
-#project-4 img {
+.project img {
 width: 15%;
 }
 
-#project-page div {
-position: relative;
-z-index: -1;
+.project p {
+text-align: justify;
 }
 
-#project-page a {
+.project a {
+bottom: 10px;
+}
+
+.code-btn {
 position: absolute;
-bottom: 20px;
+bottom: 30px;
+left: 40%;
 }
 
 /*********Button Styles*******/
