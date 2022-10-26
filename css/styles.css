@@ -34,7 +34,7 @@ body {
 #nav-pic {
 width: 3%;
 float: right;
-margin: 10px 20px;
+margin: 6px 6px;
 z-index: 99;
 }
 
@@ -182,7 +182,7 @@ padding-top: 50px;
 float: left;
 width: 38%;
 margin: 20px 10px 30px 50px;
-height: 460px;
+height: 500px;
 padding: 20px;
 border-style: solid;
 background-color: #FFFAE7;
@@ -202,7 +202,7 @@ width: 38%;
 margin: 20px 50px 30px 10px;
 padding: 20px;
 border-style: solid;
-height: 460px;
+height: 500px;
 background-color: #FFFAE7;
 }
 
@@ -218,7 +218,7 @@ width: 20%;
 float: left;
 width: 38%;
 margin: 20px 10px 30px 50px;
-height: 460px;
+height: 500px;
 padding: 20px;
 border-style: solid;
 background-color: #FFFAE7;
@@ -238,7 +238,7 @@ width: 38%;
 margin: 20px 50px 30px 10px;
 padding: 20px;
 border-style: solid;
-height: 460px;
+height: 500px;
 background-color: #FFFAE7;
 }
 
@@ -248,6 +248,16 @@ text-align: justify;
 
 #project-4 img {
 width: 15%;
+}
+
+#project-page div {
+position: relative;
+z-index: -1;
+}
+
+#project-page a {
+position: absolute;
+bottom: 20px;
 }
 
 /*********Button Styles*******/
@@ -309,3 +319,4 @@ margin: 20px;
 margin: 0 0 50px 0;
 padding: 0;
 }
+
