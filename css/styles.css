@@ -26,6 +26,7 @@ body {
   color: black;
 }
 
+/********Homepage Pic Styles***************/
 #homepage-pic {
   top: 0;
   position: fixed;
@@ -39,7 +40,6 @@ width: 3%;
 float: right;
 margin: 6px 6px;
 }
-
 
 /********Front Page Styles***********/
 #front-page {
@@ -268,4 +268,3 @@ margin: 20px;
 margin: 0 0 50px 0;
 padding: 0;
 }
-
