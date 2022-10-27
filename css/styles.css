@@ -155,15 +155,14 @@ font-weight: bold;
 /*********Table Styles*******/
 table {
     text-align: justify;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 10px 150px;
     border-spacing: 30px;
 
 }
 
 td {
     text-align: left;
-    padding:10px;
+    padding:10px 30px;
     margin: 30px;
     font-family: 'Helvetica Neue', sans-serif;
     color: #1C3879;
