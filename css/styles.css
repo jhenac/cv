@@ -134,18 +134,27 @@ text-align: center;
 }
 
 .skills-container {
-width: 30%;
+width: 25%;
 display: inline-block;
 margin: 10px;
+vertical-align: top;
 }
 
 ul {
-  list-style: none;
-  text-align: justify;
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
 }
 
 li {
-margin: 20px auto;
+margin: 20px 10px;
+width: 80%;
+text-align: center;
+border: solid 1px;
+background: #C6DCE4;
+color: #153462;
+padding: 5px;
+border-color: #153462;
 }
 
 /*********Header Styles*******/
