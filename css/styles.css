@@ -128,6 +128,26 @@ height: 450px;
 padding: 50px 0;
 }
 
+#skills-parent-container {
+position: relative;
+text-align: center;
+}
+
+.skills-container {
+width: 30%;
+display: inline-block;
+margin: 10px;
+}
+
+ul {
+  list-style: none;
+  text-align: justify;
+}
+
+li {
+margin: 20px auto;
+}
+
 /*********Header Styles*******/
 h1 {
 color: #647E68;
@@ -150,23 +170,6 @@ font-style: oblique;
 span {
 color: green;
 font-weight: bold;
-}
-
-/*********Table Styles*******/
-table {
-    text-align: justify;
-    margin: 10px 150px;
-    border-spacing: 30px;
-
-}
-
-td {
-    text-align: left;
-    padding:10px 30px;
-    margin: 30px;
-    font-family: 'Helvetica Neue', sans-serif;
-    color: #1C3879;
-    font-weight: bold;
 }
 
 /*********Project Page Styles*******/
