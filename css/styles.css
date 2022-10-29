@@ -33,12 +33,14 @@ body {
   background-color: grey;
   height: 50px;
   z-index: 99;
+  width: 100%;
 }
 
 #nav-pic {
 width: 3%;
 float: right;
 margin: 6px 6px;
+border-radius: 50%;
 }
 
 /********Front Page Styles***********/
@@ -97,6 +99,8 @@ float: right;
 width: 20%;
 margin-top: 40px;
 margin-right: 100px;
+border-radius: 50%;
+border: 2px solid #4FA095;
 }
 
 /*********Horizontal Rules Styles*******/
