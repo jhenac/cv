@@ -100,7 +100,11 @@ width: 20%;
 margin-top: 40px;
 margin-right: 100px;
 border-radius: 50%;
-border: 2px solid #4FA095;
+border: 1.5px solid black;
+}
+
+#about-page h4 {
+font-style: normal;
 }
 
 /*********Horizontal Rules Styles*******/
@@ -189,67 +193,19 @@ font-weight: bold;
 #project-page {
 text-align: center;
 font-family: 'Helvetica Neue', sans-serif;
-margin: 50px 0 50px 0;
 width: 100%;
-height: 1400px;
 padding-top: 50px;
 }
 
-.project {
-float: left;
-width: 38%;
-margin: 20px 5px 30px 40px;
-height: 520px;
-padding: 30px;
-border-style: solid;
-background-color: #FFFAE7;
-position: relative;
+#project-page img {
+width: 25%;
+height: 200px;
+margin: 30px;
+border: 2px solid black;
 }
 
-.project img {
-width: 15%;
-}
-
-.project p {
-text-align: justify;
-}
-
-.project a {
-bottom: 10px;
-}
-
-.code-btn {
-position: absolute;
-bottom: 30px;
-left: 40%;
-}
-
-/*********Button Styles*******/
-.btn {
-  background: #06283D;
-  background-image: -webkit-linear-gradient(top, #06283D, #256D85);
-  background-image: -moz-linear-gradient(top, #06283D, #256D85);
-  background-image: -ms-linear-gradient(top, #06283D, #256D85);
-  background-image: -o-linear-gradient(top, #06283D, #256D85);
-  background-image: linear-gradient(to bottom, #06283D, #256D85);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 16px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background: #425F57;
-  background-image: -webkit-linear-gradient(top, #425F57, #A8E890);
-  background-image: -moz-linear-gradient(top, #425F57, #A8E890);
-  background-image: -ms-linear-gradient(top, #425F57, #A8E890);
-  background-image: -o-linear-gradient(top, #425F57, #A8E890);
-  background-image: linear-gradient(to bottom, #425F57, #A8E890);
-  text-decoration: none;
+#project-page img:hover {
+    transform: scale(1.2);
 }
 
 /*********Contact Page Styles*******/
