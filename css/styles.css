@@ -198,26 +198,27 @@ padding-top: 50px;
 }
 
 .project-img-container {
-height: 200px;
-width: 25%;
+height: 150px;
+width: 20%;
 position: relative;
-margin: 30px;
+margin: 20px;
 border: 2px solid black;
 display: inline-block;
 }
 
 .project-link {
-height: 80%;
-width: 87.5%;
+height: 87%;
+width: 84.5%;
 position: absolute;
 top: 0;
-padding: 20px;
+padding: 10px 20px;
 text-align: left;
 color: white;
 background: #4C0027;
 opacity: 0.8;
 display: none;
 text-decoration: none;
+font-size: small;
 }
 
 .project-img {
@@ -232,7 +233,6 @@ transform: scale(1.1);
 .project-img-container:hover > .project-link {
 display: block;
 }
-
 
 /*********Contact Page Styles*******/
 #contact-page {
